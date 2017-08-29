@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<body>
+  <script type="module" src="extracttype.js"></script>
+  <script type="module" src="tests/tests.js"></script>
+  <script type="module">
+    import run from 'tests';
+    window.runTests = run;
+    run();
+  </script>
+</body>
+</html>

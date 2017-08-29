@@ -1,0 +1,25 @@
+{
+  "name": "extracttype",
+  "version": "1.0.0",
+  "description": "Attempts to extract the type of a JavaScript Object",
+  "main": "extracttype.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasmith79/extracttype.git"
+  },
+  "keywords": [
+    "Types"
+  ],
+  "author": "jasmith79@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasmith79/extracttype/issues"
+  },
+  "homepage": "https://github.com/jasmith79/extracttype#readme"
+}
