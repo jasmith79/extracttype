@@ -9,7 +9,7 @@
  * objects it attempts to extract the name of their constructor.
  */
 
-import { extractType, isSameType } from 'extracttype';
+import { extractType, isSameType } from '../extracttype.js';
 
 export default function runTests () {
   /*********** BUILT IN TYPES ***********/

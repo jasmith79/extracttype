@@ -1,6 +1,6 @@
 {
   "name": "extracttype",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Attempts to extract the type of a JavaScript Object",
   "main": "extracttype.js",
   "directories": {

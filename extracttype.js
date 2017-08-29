@@ -28,7 +28,7 @@
 
 // NOTE: this isn't meant to be *totally* comprehensive.
 const BUILTINS = [
-  // All JavaScript
+  // All JavaScript. Object deliberately omitted.
   'Math',
   'JSON',
   'RegExp',
@@ -40,7 +40,6 @@ const BUILTINS = [
   'Undefined',
   'Null',
   'Function',
-  'Object',
   'Array',
   'Map',
   'WeakMap',
@@ -89,8 +88,7 @@ const extractType = function extractType(item) {
   return clazz; // returns '' for Object.create(null);
 };
 
-const _isBuiltIn = a => {
-  const type = extractType(a);
+const _isBuiltIn = type => {
   return BUILTINS.includes(type) || type.match(HTML_ELEMENT_REGEX);
 };
 
